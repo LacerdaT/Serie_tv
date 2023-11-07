@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Athelstan</title>
+    <style>
+       /* Estilo para a área do slideshow */
+       .slideshow-container {
+           max-width: 800px;
+           position: relative;
+           margin: auto;
+       }
+
+       /* Estilo para as imagens do slideshow */
+       .mySlides {
+           display: none;
+       }
+
+       /* Estilo para os botões de navegação */
+       .prev, .next {
+           position: absolute;
+           top: 50%;
+           transform: translateY(-50%);
+           padding: 10px;
+           background-color: #000;
+           color: #fff;
+           cursor: pointer;
+       }
+
+       .prev {
+           left: 0;
+       }
+
+       .next {
+           right: 0;
+       }
+   </style>
+  </head>
+  <body bgcolor="#000000">
+    <center><h1 style="color:#ff0000">Athelstan</h1></center>
+      <br>
+
+    <div class="slideshow-container">
+      <!-- Slide 1 -->
+      <div class="mySlides">
+          <center><img src="Imagens/logo.png" alt="Imagem1 "></center>
+      </div>
+
+        <!-- Slide 1 -->
+        <div class="mySlides">
+            <center><img src="Imagens/Athelstan.png" alt="Imagem2 "></center>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="mySlides">
+            <center><img src="imagens/a1.png" alt="Imagem3 "></center>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="mySlides">
+            <center><img src="imagens/22.png" alt="Imagem4 "></center>
+            <center><figcaption style="color:#ffdf00">Imagem de George Blagden.</figcaption></center>
+        </div>
+
+        <!-- Botões de navegação -->
+        <a class="prev" onclick="plusSlides(-1)">Anterior</a>
+        <a class="next" onclick="plusSlides(1)">Próximo</a>
+    </div></center>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Função para avançar/retroceder os slides
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Função para exibir um slide específico
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+  <center><p style="color:#ffffff">
+    <strong>Athelstan<strong> é um personagem principal da primeira, segunda e terceira temporada. Ele é interpretado por <strong>George Blagden</strong> (Londres, 28 de dezembro de 1989) é um ator inglês e apareceu pela primeira vez em "Wrath of the Northmen". Ele reaparece em visões durante a quarta temporada.
+  </p>
+
+  <h2 style="color:#ffffff">Alguns trabalhos.</h2>
+  <ul style="color:#ffffff">
+    <li>2018-
+Versailles (Temporada 3), interpretado
+"Louis XIV"</li>
+  <li>2017-
+Black Mirror (Temporada 4-
+Episódio 4), interpretado
+"Lenny"</li>
+  <li>2017-
+  A Rota Selvagem, interpretando
+  "Ray"</li>
+  </ul>
+</center>
+
+  <br>
+  <center style="color:#ff0000"><h1>Conheça Athelstan.</h1></center>
+<center><p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YchFn1eto1Y?si=QkKQLL9kEXeoaTWh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p></center>
+</center><p>
+
+  <h1 style="color:#ff0000"><center>Assista na</center></h1>
+  <center><a href="https://www.netflix.com/br/title/70301870"><img src="./imagens/nt.png" alt="nt"></a></center>
+  <center><figcaption style="color:#ffdf00">"Clique na imagem acima."</center></figcaption>
+<br>
+
+<hr>
+<center><h1 style="color:#ff0000">Mais Personagens.</h1></center>
+<h1><center>
+<!-- Botão para mostrar fotos -->
+<button id="mostrarFotosBtn"><img src="Imagens/nnn.png" alt="nnn">.</button>
+<center><figcaption style="color:#ff0000">"Clique na imagem acima."</figcaption></center>
+<!-- Div para exibir as fotos (inicialmente oculta) -->
+<div id="fotos" style="display: none;">
+  <a href="ragner.html"> <img src="Imagens/ragner1.png" alt="Ragner"> </a>
+  <a href="Lagertha.html"> <img src="Imagens/Lagertha1.png" alt="Lagertha"> </a>
+  <a href="Floki.html"> <img src="Imagens/Floki1.png" alt="Floki"> </a>
+  <a href="Rollo.html"> <img src="Imagens/Rollo1.png" alt="Rollo"> </a>
+  <a href="Egberto.html"> <img src="Imagens/Egberto1.png" alt="Egberto"> </a>
+</div>
+<br>
+
+<!-- Botão para voltar à página inicial -->
+<button id="voltarBtn" style="display: none;">Voltar para a Página Inicial</button>
+
+<script>
+    // Função para mostrar as fotos e ocultar o botão "Mostrar Fotos"
+    document.getElementById("mostrarFotosBtn").addEventListener("click", function() {
+        document.getElementById("fotos").style.display = "block";
+        document.getElementById("mostrarFotosBtn").style.display = "none";
+        document.getElementById("voltarBtn").style.display = "block";
+    });
+
+    // Função para voltar à página inicial e ocultar as fotos
+    document.getElementById("voltarBtn").addEventListener("click", function() {
+        document.getElementById("fotos").style.display = "none";
+        document.getElementById("mostrarFotosBtn").style.display = "block";
+        document.getElementById("voltarBtn").style.display = "none";
+    });
+</script>
+</center></h1>
+
+      <h2 style="color:#ff0000">Vá para Páginas.</h2>
+      <h3>
+    <p><a href="Os_vikings.html"><img src="Imagens/inicio.png" alt=> </a></p></h3>
+
+  </body>
+</html>
