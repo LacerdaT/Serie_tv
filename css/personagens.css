@@ -1,5 +1,5 @@
 body{
-  background-color: "#ff0000";
+  background-color: #000000;
 }
 /* Estilo para a área do slideshow */
 .slideshow-container {
@@ -30,4 +30,33 @@ body{
 
 .next {
     right: 0;
+}
+.vermelho{
+  color: #ff0000;
+  text-align: center;
+
+}
+.texto{
+  color: #ffffff;
+  text-align: center;
+}
+#iframe{
+  text-align: center;
+}
+#bot{
+  text-align: center;
+}
+#netflix{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 18%;
+}
+figcaption{
+  color: #ffdf00;
+  text-align: center;
+}
+#f2{
+  color:#ff0000
+  text-align:center;
 }
