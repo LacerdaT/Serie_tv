@@ -2,10 +2,52 @@ body{
     background-color: #000000;
 }
 
+.chamador, .sinopse{
+    text-align: center;
+}
+
 h1{
     color: #ffffff;
 }
-.img-container{
-    display: flex;
-    flex: 0 1 100vw;
+.imglogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.chamador{
+    color: #ff0000;
+}
+
+a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+figcaption{
+    color: #ffdf00;
+    text-align: center;
+
+}
+
+.sinopse{
+    color: #ff0000;
+}
+
+p{
+    color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
