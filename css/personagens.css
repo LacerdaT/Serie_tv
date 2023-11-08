@@ -1,0 +1,33 @@
+body{
+  background-color: "#ff0000";
+}
+/* Estilo para a área do slideshow */
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+/* Estilo para as imagens do slideshow */
+.mySlides {
+    display: none;
+}
+
+/* Estilo para os botões de navegação */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
