@@ -51,3 +51,33 @@ p{
     margin-right: auto;
     width: 80%;
 }
+
+.list{
+    color: #ff0000;
+}
+
+ul{
+    color: #ffffff;
+}
+
+.persona{
+    color: #ff0000;
+    text-align: center;
+}
+
+#fotos{   
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    display: inline-flex;
+    cursor: pointer;
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.imgclica{
+    color: #ff0000;
+}
