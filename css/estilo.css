@@ -51,3 +51,45 @@ p{
     margin-right: auto;
     width: 80%;
 }
+
+.list{
+    color: #ff0000;
+}
+
+ul{
+    color: #ffffff;
+}
+
+.persona{
+    color: #ff0000;
+    text-align: center;
+}
+
+#fotos{   
+    display: flex;
+    justify-content: center;
+}
+
+.Botaooo{
+text-align: center;
+
+}
+
+.foto{
+    display: inline-flex;
+    cursor: pointer;
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.imgclica{
+    color: #ff0000;
+    font-size: 56px;
+}
+
+#voltarBtn{
+    border-radius: 3px;
+    background-color: #000000;
+    color: #ff0000;
+}
