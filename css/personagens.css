@@ -45,6 +45,7 @@ body{
 }
 #bot{
   text-align: center;
+  display: block;
 }
 #netflix{
 display: block;
@@ -56,7 +57,12 @@ figcaption{
   color: #ffdf00;
   text-align: center;
 }
-#f2{
-  color:#ff0000
-  text-align:center;
+#mostrarFotosBtn{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, 195%);
+}
+#voltar{
+  color: #ff0000;
 }
