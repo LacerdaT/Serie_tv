@@ -73,6 +73,9 @@ ul{
 .Botaooo{
 text-align: center;
 
+#mostrarFotosBtn{
+    cursor: pointer;
+    
 }
 
 .foto{
@@ -88,8 +91,14 @@ text-align: center;
     font-size: 56px;
 }
 
+.imgclica :hover{
+    display: none;
+}
+
 #voltarBtn{
-    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 3px solid #ff0000;
     background-color: #000000;
     color: #ff0000;
 }
+

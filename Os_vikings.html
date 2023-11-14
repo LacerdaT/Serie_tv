@@ -11,7 +11,7 @@
 
 <body>
 
-  <h1> Vinicius Machado de Lima.</h1>
+  <h1 id="inicio"> Vinicius Machado de Lima.</h1>
   <h1> Thiago Durães de Larcerda.</h1>
   <hr>
   <br>
@@ -79,7 +79,7 @@
       <br>
 
       <!-- Botão para voltar à página inicial -->
-      <button id="voltarBtn" style="display: none;">Voltar para a Página Inicial</button>
+      <button id="voltarBtn" style="display: none;">Voltar para o Topo</button>
 
       <script>
         // Função para mostrar as fotos e ocultar o botão "Mostrar Fotos"
@@ -91,10 +91,16 @@
 
         // Função para voltar à página inicial e ocultar as fotos
         document.getElementById("voltarBtn").addEventListener("click", function () {
+          document.getElementById("voltarBtn").style.display = "none";
           document.getElementById("fotos").style.display = "none";
           document.getElementById("mostrarFotosBtn").style.display = "block";
-          document.getElementById("voltarBtn").style.display = "none";
+
         });
+
+        var btn = document.querySelector("#voltarBtn");
+        btn.addEventListener("click", function() {
+        window.scrollTo(0, 0);
+});
       </script>
     </div>
   <br>
