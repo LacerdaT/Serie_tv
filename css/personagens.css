@@ -11,6 +11,7 @@ body{
 /* Estilo para as imagens do slideshow */
 .mySlides {
     display: none;
+    text-align: center;
 }
 
 /* Estilo para os botões de navegação */
@@ -38,6 +39,10 @@ body{
 }
 .texto{
   color: #ffffff;
+  text-align: center;
+}
+#verdade{
+  color: #ffdf00;
   text-align: center;
 }
 #iframe{
