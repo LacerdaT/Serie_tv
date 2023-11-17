@@ -2,70 +2,41 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
     <title>Ragner</title>
-    <style>
-       /* Estilo para a área do slideshow */
-       .slideshow-container {
-           max-width: 800px;
-           position: relative;
-           margin: auto;
-       }
-
-       /* Estilo para as imagens do slideshow */
-       .mySlides {
-           display: none;
-       }
-
-       /* Estilo para os botões de navegação */
-       .prev, .next {
-           position: absolute;
-           top: 50%;
-           transform: translateY(-50%);
-           padding: 10px;
-           background-color: #000;
-           color: #fff;
-           cursor: pointer;
-       }
-
-       .prev {
-           left: 0;
-       }
-
-       .next {
-           right: 0;
-       }
-   </style>
   </head>
-  <body bgcolor="#000000">
-    <center><h1 style="color:#ff0000">Ragnar Lothbrok </h1></center>
+  <link rel="stylesheet" type="text/css" href="css/personagens.css">
+
+  <body>
+    <h1 class="vermelho">Ragnar Lothbrok </h1>
       <br>
 
     <div class="slideshow-container">
       <!-- Slide 1 -->
       <div class="mySlides">
-          <center><img src="Imagens/logo.png" alt="Imagem1 "></center>
+        <img src="Imagens/logo.png" alt="Imagem1 ">
       </div>
 
         <!-- Slide 1 -->
         <div class="mySlides">
-            <center><img src="Imagens/ragner.png" alt="Imagem2 "></center>
+          <img src="Imagens/ragner.png" alt="Imagem2 ">
         </div>
 
         <!-- Slide 2 -->
         <div class="mySlides">
-            <center><img src="imagens/r1.png" alt="Imagem3 "></center>
+            <img src="imagens/r1.png" alt="Imagem3 ">
         </div>
 
         <!-- Slide 3 -->
         <div class="mySlides">
-            <center><img src="imagens/Travis.png" alt="Imagem4 "></center>
-            <center><figcaption style="color:#ffdf00">Imagem de Travis Fimmel na vida real.</figcaption></center>
+            <img src="imagens/Travis.png" alt="Imagem4 ">
+            <figcaption id="verdade">Imagem de Travis Fimmel na vida real.</figcaption>
         </div>
 
         <!-- Botões de navegação -->
         <a class="prev" onclick="plusSlides(-1)">Anterior</a>
         <a class="next" onclick="plusSlides(1)">Próximo</a>
-    </div></center>
+    </div>
 
     <script>
         var slideIndex = 1;
@@ -97,10 +68,10 @@
         }
     </script>
 
-  <center><p style="color:#ffffff"><strong>Travis Fimmel</strong> (Echuca, 15 de julho de 1979) é um ator e modelo australiano, dá vida ao guerreiro inquieto e homem de família que anseia encontrar e explorar novos países através do mar. Seu objetivo é fazer seu próprio povo prosperar em terras ricas. Agora que ele é o rei, sua ambição de invadir novos reinos permanece inextinguível, não menos porque ele afirma ser um antepassado do deus nórdico Odin. Casou-se com <em>Lagertha</em> com quem teve <em>Bjorn</em> e <em>Gyda</em> (falecida na primeira temporada).</p>
+  <p class="texto"><strong>Travis Fimmel</strong> (Echuca, 15 de julho de 1979) é um ator e modelo australiano, dá vida ao guerreiro inquieto e homem de família que anseia encontrar e explorar novos países através do mar. Seu objetivo é fazer seu próprio povo prosperar em terras ricas. Agora que ele é o rei, sua ambição de invadir novos reinos permanece inextinguível, não menos porque ele afirma ser um antepassado do deus nórdico Odin. Casou-se com <em>Lagertha</em> com quem teve <em>Bjorn</em> e <em>Gyda</em> (falecida na primeira temporada).</p>
 
-<h2 style="color:#ffffff">alguns Trabalhos.</h2>
-<ul style="color:#ffffff">
+<h2 class="texto">alguns Trabalhos.</h2>
+<ul class="texto">
   <li>2023-
 Missão de Sobrevivência, interpretando
 "Roman Chalmers"</li>
@@ -111,25 +82,25 @@ Fenton, interpretando “Preacher” Lang</li>
 A Rota Selvagem, interpretando
 "Ray"</li>
 </ul>
-  </center>
 
-<center>
+
+
   <br>
-  <center style="color:#ff0000"><h1>Conheça Ragnar Lothbrok</h1></center>
+<h1 class="vermelho">Conheça Ragnar Lothbrok</h1>
+<p id="iframe">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wXlGIg9QkCo?si=pKougb2y2rrof2Ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
+</p>
 
-<h1 style="color:#ff0000"><center>Assista na</center></h1>
-<center><a href="https://www.netflix.com/br/title/70301870"><img src="./imagens/nt.png" alt="nt"></a></center>
-<center><figcaption style="color:#ffdf00">"Clique na imagem acima."</center></figcaption>
+<h1 class="vermelho">Assista na</h1>
+<a id="netflix" href="https://www.netflix.com/br/title/70301870"><img src="./imagens/nt.png" alt="nt"></a>
+<figcaption style="color:#ffdf00">"Clique na imagem acima."</figcaption>
 <br>
 
 <hr>
-<center><h1 style="color:#ff0000">Mais Personagens.</h1></center>
-<h1><center>
+<h1 class="vermelho">Mais Personagens.</h1>
+<h1 id="bot">
 <!-- Botão para mostrar fotos -->
 <button id="mostrarFotosBtn"><img src="Imagens/nnn.png" alt="nnn">.</button>
-<center><figcaption style="color:#ff0000">"Clique na imagem acima."</figcaption></center>
 
 <!-- Div para exibir as fotos (inicialmente oculta) -->
 <div id="fotos" style="display: none;">
@@ -159,9 +130,9 @@ A Rota Selvagem, interpretando
         document.getElementById("voltarBtn").style.display = "none";
     });
 </script>
-</center></h1>
+</h1>
 
-      <h2 style="color:#ff0000">Vá para Páginas.</h2>
+      <h2 id="voltar">Vá para Páginas.</h2>
       <h3>
     <p><a href="Os_vikings.html"><img src="Imagens/inicio.png" alt=> </a></p></h3>
 
