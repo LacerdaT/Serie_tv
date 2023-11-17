@@ -2,64 +2,34 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/personagens.css">
     <title>Rollo.</title>
-    <style>
-       /* Estilo para a área do slideshow */
-       .slideshow-container {
-           max-width: 800px;
-           position: relative;
-           margin: auto;
-       }
-
-       /* Estilo para as imagens do slideshow */
-       .mySlides {
-           display: none;
-       }
-
-       /* Estilo para os botões de navegação */
-       .prev, .next {
-           position: absolute;
-           top: 50%;
-           transform: translateY(-50%);
-           padding: 10px;
-           background-color: #000;
-           color: #fff;
-           cursor: pointer;
-       }
-
-       .prev {
-           left: 0;
-       }
-
-       .next {
-           right: 0;
-       }
-   </style>
   </head>
-  <body bgcolor="#000000">
-    <center><h1 style="color:#ff0000">Rollo.</h1></center>
+
+  <body>
+    <h1 class="vermelho">Rollo.</h1>
       <br>
 
     <div class="slideshow-container">
       <!-- Slide 1 -->
       <div class="mySlides">
-          <center><img src="Imagens/logo.png" alt="Imagem1 "></center>
+          <img src="Imagens/logo.png" alt="Imagem1 ">
       </div>
 
         <!-- Slide 1 -->
         <div class="mySlides">
-            <center><img src="Imagens/Rollo.png" alt="Imagem2 "></center>
+            <img src="Imagens/Rollo.png" alt="Imagem2 ">
         </div>
 
         <!-- Slide 2 -->
         <div class="mySlides">
-            <center><img src="imagens/rl1.png" alt="Imagem3 "></center>
+          <img src="imagens/rl1.png" alt="Imagem3 ">
         </div>
 
         <!-- Slide 3 -->
         <div class="mySlides">
-            <center><img src="imagens/rl2.png" alt="Imagem4 "></center>
-            <center><figcaption style="color:#ffdf00">Imagem de Gustaf Skarsgård na vida real.</figcaption></center>
+            <img src="imagens/rl2.png" alt="Imagem4 ">
+            <figcaption id="verdade">Imagem de Gustaf Skarsgård na vida real.</figcaption>
         </div>
 
         <!-- Botões de navegação -->
@@ -97,31 +67,31 @@
         }
     </script>
 
-  <center><p style="color:#ffffff">
+  <p class="texto">
     <strong>Clive Standen</strong>(Holywood, 22 de julho de 1981), é um ator irlandês vivie o irmão de <em>Ragnar</em>. <em>Rollo</em> é impulsivo, selvagem, despreocupado e compulsivo. É um lutador feroz que é muitas vezes ofuscado por seu irmão. A relação entre ele e <em>Ragnar</em> é intensa e sempre imprevisível. <em>Rollo</em> tornou-se o duque da Normandia depois de se casar com a <em>princesa Gisla</em> (filha do imperador Charles) e é nomeado defensor da França contra os vikings.
     </p>
 
-    <h2 style="color:#ffffff">alguns Trabalhos.</h2>
-    <ul style="color:#ffffff">
+    <h2 class="texto">alguns Trabalhos.</h2>
+    <ul class="texto">
       <li>2020	Council of Dads	Anthony Lavelle</li>
       <li>2019	Vault	Chucky</li>
       <li>2004-Ten Days to D-Day</li>
     </ul>
-  </center>
+
 
   <br>
-  <center style="color:#ff0000"><h1>Conheça Rollo.</h1></center>
-<center><p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Kb8pp__Vcog?si=js6NFcEs1yfqp1G6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>/<p>
-
-  <h1 style="color:#ff0000"><center>Assista na</center></h1>
-  <center><a href="https://www.netflix.com/br/title/70301870"><img src="./imagens/nt.png" alt="nt"></a></center>
-  <center><figcaption style="color:#ffdf00">"Clique na imagem acima."</center></figcaption>
+<h1 class="vermelho">Conheça Rollo.</h1>
+<p id="iframe">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kb8pp__Vcog?si=js6NFcEs1yfqp1G6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>
+</p>
+  <h1 class="vermelho">Assista na</h1>
+  <a id="netflix" href="https://www.netflix.com/br/title/70301870"><img src="./imagens/nt.png" alt="nt"></a>
+  <figcaption style="color:#ffdf00">"Clique na imagem acima."</figcaption>
 <br>
 
 <hr>
-<center><h1 style="color:#ff0000">Mais Personagens.</h1></center>
-<h1><center>
+<h1 class="vermelho">Mais Personagens.</h1>
+<h1 id="bot">
 <!-- Botão para mostrar fotos -->
 <button id="mostrarFotosBtn"><img src="Imagens/nnn.png" alt="nnn">.</button>
 <center><figcaption style="color:#ff0000">"Clique na imagem acima."</figcaption></center>
@@ -153,9 +123,9 @@
         document.getElementById("voltarBtn").style.display = "none";
     });
 </script>
-</center></h1>
+</h1>
 
-      <h2 style="color:#ff0000">Vá para Páginas.</h2>
+      <h2 id="voltar">Vá para Páginas.</h2>
       <h3>
     <p><a href="Os_vikings.html"><img src="Imagens/inicio.png" alt=> </a></p></h3>
 
